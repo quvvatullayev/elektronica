@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | GET | `/eliments` | get all eliments |
 
-### `Response`
+### Response
 
 | key | type | description |
 | --- | --- | --- |
@@ -30,7 +30,7 @@
 | GET | `/eliment_info/<eliment_id>` | get eliment info |
 | GET | `/eliment_info/` | get all eliment info |
 
-### `Response`
+### Response
 
 | key | type | description |
 | --- | --- | --- |
