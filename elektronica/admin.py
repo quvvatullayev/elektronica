@@ -1,3 +1,8 @@
 from django.contrib import admin
+from .models import (
+    Eliments,
+    Eliment_info,
+)
 
-# Register your models here.
+admin.site.register(Eliments)
+admin.site.register(Eliment_info)
