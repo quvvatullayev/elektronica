@@ -14,7 +14,7 @@
 | key | string | key of eliment |
 | description | string | description of eliment |
 
-```json
+```python
 {
     "id": int,
     "key": string,
@@ -42,7 +42,7 @@
 | eliment | int | id of eliment |
 
 
-```json
+```python
 {
     "id": int,
     "key": string,
