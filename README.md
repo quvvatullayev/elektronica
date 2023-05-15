@@ -1,5 +1,11 @@
 # elektronica Documentation
 
+## base url : `http://elektronica.pythonanywhere.com/`
+
+# database schema
+
+<!-- ![alt text](kun_uz_img.png) -->
+
 ## `eliments api`
 
 | Method | path | description |
