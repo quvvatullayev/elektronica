@@ -11,7 +11,7 @@ class Eliment_info(models.Model):
     key = models.CharField(max_length=100)
     description = models.CharField(max_length=100)
     formula = models.ImageField(upload_to='images/')
-    formula_text = models.CharField()
+    formula_text = models.CharField(max_length=100)
     eliment = models.ForeignKey(Eliments, on_delete=models.CASCADE)
 
     def __str__(self):
