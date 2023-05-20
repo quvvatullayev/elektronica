@@ -1,6 +1,6 @@
 # elektronica Documentation
 
-## base url : `http://elektronica.pythonanywhere.com/`
+## base url : `http://elektronica.pythonanywhere.com`
 
 # database schema
 
@@ -97,4 +97,39 @@ or
 {
     "result": "NameError"
 }
+```
+
+### `sorted api`
+
+| Method | path | description |
+| --- | --- | --- |
+| GET | `/sorted` | get sorted eliment |
+
+### Request
+
+#### Query params
+
+| key | type | description |
+| --- | --- | --- |
+| queryset | string | queryset of eliment |
+
+`for example: {bas_url}/?queryset=eliment_info__value`
+
+### Response
+
+| key | type | description |
+| --- | --- | --- |
+| id | int | id of eliment |
+| key | string | key of eliment |
+| description | string | description of eliment |
+
+```python
+[
+    {
+        "id": int,
+        "key": string,
+        "description": string
+    },
+    ...
+]
 ```
