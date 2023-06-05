@@ -2,7 +2,7 @@ from django.urls import path
 from .views.eliments import ElimentsList
 
 urlpatterns = [
-    path('eliments/', ElimentsList.as_view(), name='elements'),
+    path('', ElimentsList.as_view(), name='elements'),
 ]
 
 from .views.eliment_info import Eliment_infoList, Eliment_infoGet, ElimentsCount
