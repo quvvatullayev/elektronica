@@ -73,9 +73,26 @@
             background-color: white;
         }
 
+        .about{
+            background-image: url('https://images.unsplash.com/photo-1550751827-4bd374c3f58b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            opacity: 0.6;
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            position: absolute;
+            z-index: -1;
+            filter: blur(2px);
+            background-attachment: fixed;
+            /* background-color: black; */
+        }
+
     </style>
 </head>
 <body>
+    <div class="about"></div>
     <div class="element-info">
     <p class="element-info-p"><b>Belgilanish</b>: <i>{{ eliment_info.key }}</i></p><br>
     <p class="element-info-p"><b>O'lchov birligi</b>:{{ eliment_info.measure }}</p><br>
@@ -105,6 +122,6 @@
         </div>
     </form><br>
     <a class="link-success home" href="https://elektronica.pythonanywhere.com">Bosh sahifaga qaytish</a>
-    
+    </div>
 </body>
 </html>
